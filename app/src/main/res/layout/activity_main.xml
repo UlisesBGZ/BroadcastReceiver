@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal" android:padding="32dp"
+    android:background="@color/background"> <EditText
+    android:id="@+id/phoneNumberEditText"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:hint="@string/enter_phone_number"
+    android:inputType="phone"
+    android:autofillHints="phone"
+    android:textColor="@color/textColor"
+    android:textColorHint="@color/hintColor"
+    android:background="@drawable/edit_text_background" android:padding="16dp"
+    android:layout_marginBottom="16dp"/> <EditText
+    android:id="@+id/messageEditText"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:hint="@string/enter_auto_reply_message"
+    android:inputType="textMultiLine"
+    android:autofillHints="text"
+    android:textColor="@color/textColor"
+    android:textColorHint="@color/hintColor"
+    android:background="@drawable/edit_text_background" android:padding="16dp"
+    android:layout_marginBottom="24dp"/> <Button
+    android:id="@+id/saveButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/save"
+    android:textColor="@color/white"
+    android:backgroundTint="@color/purple_500"
+    android:paddingVertical="14dp" android:paddingHorizontal="32dp" android:layout_marginTop="16dp"
+    android:elevation="4dp" /> </LinearLayout>
